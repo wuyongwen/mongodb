@@ -8,7 +8,6 @@ import com.mongodb.Mongo;
 public class MongoDBUtil {
 	
 	static Mongo m = null;
-	DB db;
 	public static Mongo connect(String server,int port) throws Exception{
 		if(m == null){
 			try {
